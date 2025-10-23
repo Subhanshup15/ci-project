@@ -19,9 +19,7 @@ class PatientNew extends CI_Controller
         $this->load->library("pagination");
 		$this->load->library('excel');
 
-        //if ($this->session->userdata('isLogIn') == false
-        //|| $this->session->userdata('user_role') != 1) 
-        //redirect('login');
+   
 
         if ($this->session->userdata('isLogIn') == false)
         redirect('login'); 
