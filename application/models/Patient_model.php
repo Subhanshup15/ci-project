@@ -17,14 +17,6 @@ class Patient_model extends CI_Model {
         return $this->db->insert_id();
 	}
 	
-// 		public function insert_manual_check_up($data = [])
-
-// 	{	 
-
-// 		 $this->db->insert('manual_treatments', $data);
-// 		 return $this->db->insert_id();
-
-// 	}
 	 
 	 public function insert_manual_check_up($data = [])
 
